@@ -33,7 +33,7 @@ public class ADBlockStateProvider extends BlockStateProvider {
 		this.cabinet(ADBlocks.AZALEA_CABINET.get());
 		this.cabinet(ADBlocks.POISE_CABINET.get());
 		this.cabinet(ADBlocks.WILLOW_CABINET.get());
-		this.cabinet(ADBlocks.CHERRY_CABINET.get());
+		this.cabinet(ADBlocks.PLUM_CABINET.get());
 		this.cabinet(ADBlocks.WISTERIA_CABINET.get());
 		this.cabinet(ADBlocks.PINE_CABINET.get());
 		this.cabinet(ADBlocks.DRIFTWOOD_CABINET.get());

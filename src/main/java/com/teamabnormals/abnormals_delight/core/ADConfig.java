@@ -9,12 +9,12 @@ import org.apache.commons.lang3.tuple.Pair;
 public class ADConfig {
 
 	public static class Common {
-		public final BooleanValue replaceFDItemGroup;
+//		public final BooleanValue replaceFDItemGroup;
 
 		Common(ForgeConfigSpec.Builder builder) {
-			builder.push("overrides");
-			replaceFDItemGroup = builder.comment("Removes and hides Farmer's Delight's ItemGroup and move the items to vanilla ItemGroups").define("replaceFDItemGroup", false);
-			builder.pop();
+//			builder.push("overrides");
+//			replaceFDItemGroup = builder.comment("Removes and hides Farmer's Delight's ItemGroup and move the items to vanilla ItemGroups").define("replaceFDItemGroup", false);
+//			builder.pop();
 		}
 	}
 

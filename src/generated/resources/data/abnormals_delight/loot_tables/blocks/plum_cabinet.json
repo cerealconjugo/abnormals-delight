@@ -17,11 +17,11 @@
               "source": "block_entity"
             }
           ],
-          "name": "abnormals_delight:cherry_cabinet"
+          "name": "abnormals_delight:plum_cabinet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "abnormals_delight:blocks/cherry_cabinet"
+  "random_sequence": "abnormals_delight:blocks/plum_cabinet"
 }

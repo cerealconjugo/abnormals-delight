@@ -4,13 +4,10 @@ import com.google.common.collect.ImmutableList;
 import com.teamabnormals.abnormals_delight.core.AbnormalsDelight;
 import com.teamabnormals.abnormals_delight.core.registry.ADBlocks;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.data.loot.packs.VanillaBlockLoot;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.ValidationContext;
@@ -19,7 +16,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ADLootTableProvider extends LootTableProvider {
 
@@ -50,7 +46,7 @@ public class ADLootTableProvider extends LootTableProvider {
 			this.add(ADBlocks.AZALEA_CABINET.get(), this::createNameableBlockEntityTable);
 			this.add(ADBlocks.POISE_CABINET.get(), this::createNameableBlockEntityTable);
 			this.add(ADBlocks.WILLOW_CABINET.get(), this::createNameableBlockEntityTable);
-			this.add(ADBlocks.CHERRY_CABINET.get(), this::createNameableBlockEntityTable);
+			this.add(ADBlocks.PLUM_CABINET.get(), this::createNameableBlockEntityTable);
 			this.add(ADBlocks.WISTERIA_CABINET.get(), this::createNameableBlockEntityTable);
 			this.add(ADBlocks.PINE_CABINET.get(), this::createNameableBlockEntityTable);
 			this.add(ADBlocks.DRIFTWOOD_CABINET.get(), this::createNameableBlockEntityTable);

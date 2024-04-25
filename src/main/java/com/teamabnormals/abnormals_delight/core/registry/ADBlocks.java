@@ -24,7 +24,7 @@ public class ADBlocks {
 	public static final RegistryObject<Block> POISE_CABINET = HELPER.createFuelBlock("poise_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
 	public static final RegistryObject<Block> WILLOW_CABINET = HELPER.createFuelBlock("willow_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
 	public static final RegistryObject<Block> WISTERIA_CABINET = HELPER.createFuelBlock("wisteria_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
-	public static final RegistryObject<Block> CHERRY_CABINET = HELPER.createFuelBlock("cherry_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
+	public static final RegistryObject<Block> PLUM_CABINET = HELPER.createFuelBlock("plum_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
 	public static final RegistryObject<Block> PINE_CABINET = HELPER.createFuelBlock("pine_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
 	public static final RegistryObject<Block> DRIFTWOOD_CABINET = HELPER.createFuelBlock("driftwood_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);
 	public static final RegistryObject<Block> RIVER_CABINET = HELPER.createFuelBlock("river_cabinet", () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)), 300);

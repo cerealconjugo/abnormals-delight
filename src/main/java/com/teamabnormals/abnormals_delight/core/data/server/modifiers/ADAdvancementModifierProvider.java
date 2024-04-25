@@ -42,7 +42,7 @@ public class ADAdvancementModifierProvider extends AdvancementModifierProvider {
 	@Override
 	protected void registerEntries(Provider provider) {
 		CriteriaModifier.Builder balancedDiet = CriteriaModifier.builder(this.modId);
-		List<Item> items = ForgeRegistries.ITEMS.getValues().stream().filter(item -> ForgeRegistries.ITEMS.getKey(item) != null && FarmersDelight.MODID.equals(ForgeRegistries.ITEMS.getKey(item).getNamespace())).collect(Collectors.toList());
+		List<Item> items = ForgeRegistries.ITEMS.getValues().stream().filter(item -> ForgeRegistries.ITEMS.getKey(item) != null && FarmersDelight.MODID.equals(ForgeRegistries.ITEMS.getKey(item).getNamespace())).toList();
 		items.forEach(item -> {
 			if (item.isEdible() && item != ModItems.APPLE_CIDER.get() && item != ModItems.FRIED_EGG.get()) {
 				balancedDiet.addCriterion(ForgeRegistries.ITEMS.getKey(item).getPath(), ConsumeItemTrigger.TriggerInstance.usedItem(item));
