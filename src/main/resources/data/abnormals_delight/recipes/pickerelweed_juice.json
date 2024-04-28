@@ -2,10 +2,10 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "upgrade_aquatic:blue_pickerelweed"
+      "item": "upgrade_aquatic:pickerelweed"
     },
     {
-      "item": "upgrade_aquatic:purple_pickerelweed"
+      "item": "upgrade_aquatic:pickerelweed"
     },
     {
       "item": "minecraft:sugar"

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "upgrade_aquatic:purple_pickerelweed"
+      "item": "upgrade_aquatic:pickerelweed"
     }
   ],
   "tool": {
@@ -10,7 +10,7 @@
   },
   "result": [
     {
-      "item": "minecraft:purple_dye",
+      "item": "minecraft:cyan_dye",
       "count": 2
     }
   ],
