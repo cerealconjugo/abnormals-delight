@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "caverns_and_chasms:necromium_ingot"
+    "tag": "forge:ingots/necromium"
   },
   "base": {
     "item": "farmersdelight:diamond_knife"
