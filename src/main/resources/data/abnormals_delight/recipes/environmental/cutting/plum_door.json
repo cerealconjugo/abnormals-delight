@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "environmental:cherry_door"
+      "item": "envrionmental:plum_door"
     }
   ],
   "tool": {
@@ -11,7 +11,7 @@
   },
   "result": [
     {
-      "item": "environmental:cherry_planks"
+      "item": "envrionmental:plum_planks"
     }
   ],
   "conditions": [
