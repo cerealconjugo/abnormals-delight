@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "envrionmental:plum_door"
+      "item": "envrionmental:plum_hanging_sign"
     }
   ],
   "tool": {

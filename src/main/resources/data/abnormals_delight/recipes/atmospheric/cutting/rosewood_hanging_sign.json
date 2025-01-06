@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "envrionmental:plum_door"
+      "item": "atmospheric:rosewood_hanging_sign"
     }
   ],
   "tool": {
@@ -11,13 +11,13 @@
   },
   "result": [
     {
-      "item": "envrionmental:plum_planks"
+      "item": "atmospheric:rosewood_planks"
     }
   ],
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "environmental"
+      "modid": "atmospheric"
     }
   ]
 }

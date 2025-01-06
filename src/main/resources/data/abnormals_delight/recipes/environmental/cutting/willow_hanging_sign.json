@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "envrionmental:plum_door"
+      "item": "environmental:willow_hanging_sign"
     }
   ],
   "tool": {
@@ -11,7 +11,7 @@
   },
   "result": [
     {
-      "item": "envrionmental:plum_planks"
+      "item": "environmental:willow_planks"
     }
   ],
   "conditions": [

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "environmental:cherry_wood"
+      "item": "envrionmental:plum_wood"
     }
   ],
   "tool": {

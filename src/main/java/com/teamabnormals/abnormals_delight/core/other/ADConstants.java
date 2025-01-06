@@ -46,6 +46,7 @@ public class ADConstants {
 	public static final ResourceLocation DUCK = new ResourceLocation(ENVIRONMENTAL, "duck");
 	public static final ResourceLocation REINDEER = new ResourceLocation(ENVIRONMENTAL, "reindeer");
 	public static final ResourceLocation SLABFISH = new ResourceLocation(ENVIRONMENTAL, "slabfish");
+	public static final ResourceLocation ZEBRA = new ResourceLocation(ENVIRONMENTAL, "zebra");
 	public static final ResourceLocation ZOMBIE_WOLF = new ResourceLocation(PET_CEMETERY, "zombie_wolf");
 	public static final ResourceLocation SKELETON_WOLF = new ResourceLocation(PET_CEMETERY, "skeleton_wolf");
 

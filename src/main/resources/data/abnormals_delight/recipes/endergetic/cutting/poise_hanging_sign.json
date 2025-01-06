@@ -2,21 +2,22 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "environmental:wanderer_boots"
+      "item": "endergetic:poise_hanging_sign"
     }
   ],
   "tool": {
-    "tag": "forge:shears"
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
   },
   "result": [
     {
-      "item": "minecraft:leather"
+      "item": "endergetic:poise_planks"
     }
   ],
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "environmental"
+      "modid": "endergetic"
     }
   ]
 }
